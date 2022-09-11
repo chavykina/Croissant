@@ -1,0 +1,32 @@
+:root {
+  --text-align: center;
+}
+body {
+  background: linear-gradient(
+    89.9deg,
+    rgb(208, 246, 255) 0.1%,
+    rgb(255, 237, 237) 47.9%,
+    rgb(255, 255, 231) 100.2%
+  );
+}
+.homepage-title {
+  text-align: var(--text-align);
+  font-size: 40px;
+}
+.text-description {
+  text-align: var(--text-align);
+  font-size: 18px;
+  font-weight: 100;
+}
+.buttons a {
+  display: inline-block;
+  margin: 5px 20px;
+  color: blue;
+}
+.buttons {
+  text-align: var(--text-align);
+}
+.croissant-photo {
+  display: block;
+  margin: 15px auto;
+}
